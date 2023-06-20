@@ -1,0 +1,9 @@
+1. Get the application URL by running this command:
+
+   kubectl get ingress -n {{ .Release.Namespace }}
+
+   NOTE: It may take a few minutes for the Ingress resource to acquire the external IP address. You can monitor the status using the above command.
+
+2. Once the external IP address is available, access your application using the following URL:
+
+   http://<external-ip>

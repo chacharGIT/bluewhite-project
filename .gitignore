@@ -1,0 +1,5 @@
+bluewhite-tf/backup.tfstate
+bluewhite-tf/terraform.tfstate
+bluewhite-tf/terraform.tfstate.backup
+bluewhite-tf/.terraform/
+bluewhite-tf/.terraform.lock.hcl
