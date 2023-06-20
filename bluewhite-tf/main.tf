@@ -73,5 +73,4 @@ provider "helm" {
 resource "helm_release" "app" {
   name       = "hostname-display"
   chart      = "./hostname-display"
-  timeout    = 1000
 }
